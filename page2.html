@@ -1,0 +1,439 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+        <style type="text/css">
+            html, body {
+                overflow-x:hidden !important;
+            }
+
+            .rounded-circle-img {
+                object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+                
+            }
+
+           
+        </style>
+    </head>
+    <body>
+        <div class="w-100" style="height: 100vh">
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="w-100">
+                    <div class="row">
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            <audio id="birthdayAudio" class="d-none">
+                                <source src="asset/sound/videoplayback.m4a" type="audio/mp4">
+                                Maaf, browser Anda tidak mendukung tag audio.
+                            </audio>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center">
+                            <button type="button" class="btn btn-lg rounded pink lighten-1 rounded-pill text-capitalize text-white z-depth-0" onclick="playAudio();">
+                                Let's Start
+                                <i class="fas fa-play ml-2 animated fadeInRight infinite"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="animated fadeIn d-none" id="willShow">
+                        <div class="row mt-2">
+                            <div class="col-12 d-flex justify-content-center">
+                                <span>Scroll Down</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 d-flex justify-content-center">
+                                <span>
+                                    <i class="fas fa-chevron-down animated fadeIn infinite"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row h-50 d-flex align-items-center wow fadeIn slower">
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="row">
+                        <div class="col-12">
+                            <span style="font-size: 25px">
+                                <span class="pink lighten-1 badge badge z-depth-0">Today</span> is...
+                            </span>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row h-50 d-flex align-items-center wow fadeIn slower">
+                <div class="col-12 d-flex justify-content-center">
+                    <span style="font-size: 25px">as <span class="pink lighten-1 badge badge z-depth-0">beautiful</span> as other days</span>
+                </div>
+            </div>
+                    
+                    <div class="row h-50 d-flex align-items-center wow fadeIn slow">
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            <span style="font-size: 25px">but you <span class="pink lighten-1 badge badge z-depth-0">realize</span></span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center wow fadeIn slow">
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            <span style="font-size: 25px">another year has <span class="pink lighten-1 badge badge z-depth-0">gone</span></span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center wow fadeIn slow">
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            <span style="font-size: 25px">in a <span class="pink lighten-1 badge badge z-depth-0">blink</span> of the eyes</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center wow fadeIn slow">
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            <span style="font-size: 25px"><strong class="pink lighten-1 badge badge z-depth-0">however</strong></span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center wow fadeIn slow">
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            <span style="font-size: 25px">Do you <span class="pink lighten-1 badge badge z-depth-0">know</span>..?</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center wow fadeIn slow">
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            <span style="font-size: 25px">today is just <span class="pink lighten-1 badge badge z-depth-0">special</span></span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center wow fadeIn slow">
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            <span style="font-size: 25px">so special to <span class="pink lighten-1 badge badge z-depth-0">you</span></span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center wow fadeIn slow">
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            <span style="font-size: 25px">that's <span class="pink lighten-1 badge badge z-depth-0">why</span></span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px">Let's <span class="pink lighten-1 badge badge z-depth-0">make</span> it...</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px">the best <span class="pink lighten-1 badge badge z-depth-0">celebration</span> ever</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px">and let me <span class="pink lighten-1 badge badge z-depth-0">share</span>...</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px">a piece of <span class="pink lighten-1 badge badge z-depth-0">happiness</span> to you</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px">I <span class="pink lighten-1 badge badge z-depth-0">made</span> all this...</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px">as a birthday <span class="pink lighten-1 badge badge z-depth-0">present</span> to you</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px"><span class="pink lighten-1 badge badge z-depth-0">thanks</span> for being there</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px">thanks for <span class="pink lighten-1 badge badge z-depth-0">Everything</span> we made</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px">thanks for <span class="pink lighten-1 badge badge z-depth-0">Everything</span></span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px">I wish you all the <span class="pink lighten-1 badge badge z-depth-0">best</span></span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px">May your <span class="pink lighten-1 badge badge z-depth-0">life</span> be at ease</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px">May all your <span class="pink lighten-1 badge badge z-depth-0">wishes</span> come true</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px" class="pink lighten-1 badge badge z-depth-0">Remember</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px">your <span class="pink lighten-1 badge badge z-depth-0">ambitions</span></span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px">you <span class="pink lighten-1 badge badge z-depth-0">live</span> as a free bird...</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px"><span class="pink lighten-1 badge badge z-depth-0">flying</span> in the blue sky</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px">Now <span class="pink lighten-1 badge badge z-depth-0">things</span> are different...</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px">real <span class="pink lighten-1 badge badge z-depth-0">story</span> of your life</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px">is just about to <span class="pink lighten-1 badge badge z-depth-0">begin</span></span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px" class="pink lighten-1 badge badge z-depth-0">indeed..</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px"><span class="pink lighten-1 badge badge z-depth-0">but</span>, don't worry</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px" class="pink lighten-1 badge badge z-depth-0">because...</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px"><span class="pink lighten-1 badge badge z-depth-0">God</span> has your back</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px" class="pink lighten-1 badge badge z-depth-0">And</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px">this year will be <span class="pink lighten-1 badge badge z-depth-0">better</span></span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px">and I <span class="pink lighten-1 badge badge z-depth-0">hope</span></span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px">you'll <span class="pink lighten-1 badge badge z-depth-0">find</span>...</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px"><span class="pink lighten-1 badge badge z-depth-0">happiness</span> along the way</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px">keep your <span class="pink lighten-1 badge badge z-depth-0">spirit</span> up</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px">enjoy every single <span class="pink lighten-1 badge badge z-depth-0">moment</span>...</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px">that you <span class="pink lighten-1 badge badge z-depth-0">experience</span> today</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px">fill it with your most <span class="pink lighten-1 badge badge z-depth-0">beautiful smile</span></span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px">and make it the best <span class="pink lighten-1 badge badge z-depth-0">memory</span>..</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px"><span class="pink lighten-1 badge badge z-depth-0">lastly</span>...</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-lg-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 25px">I'd like to <span class="pink lighten-1 badge badge z-depth-0">wish</span> you one more time</span>
+                        </div>
+                    </div>
+
+                    <div class="row h-50 d-flex align-items-center">
+                        <div class="col-12 d-flex justify-content-center wow fadeIn slow">
+                            <span style="font-size: 30px" class="text-center">a very <span class="pink lighten-1 badge badge z-depth-0">happy birthday</span> and Love you <i class="far fa-heart"></i></span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="row wow fadeInUp">
+                <div class="col-12 d-flex justify-content-center">
+                    <img src="asset/image/banner.png" class="w-100">
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center mt-4 wow fadeInUp">
+                <div class="col-10 d-flex justify-content-center">
+                    <img src="asset/image/profile4.jpg" class="rounded-circle-img rounded-circle border" style="width: 250px; height: 250px">
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4 wow fadeInUp">
+            <div class="col-12 d-flex justify-content-center">
+                <span style="font-size: 30px">Happy Birthday <span class="badge pink lighten-1 p-2 z-depth-0 rounded">24th</span>
+            </div>
+        </div>
+        <div class="row mt-3 wow fadeInUp">
+            <div class="col-12 d-flex justify-content-center">
+                <span>This day is <span class="pink-text" style="font-weight: 700">yours</span></span>
+            </div>
+        </div>
+       
+        <div class="animated pulse infinite">
+            <div class="row d-flex justify-content-center mt-4">
+                <div class="col-10 d-flex justify-content-center">
+                    <img src="asset/image/Profile1.jpg" class="rounded-circle-img rounded-circle border wow fadeInUp" style="width: 250px; height: 250px">
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-5" style="margin-top: -40px">
+                    <img src="asset/image/Profile2.jpg" class="w-100 rounded-circle-img rounded-circle wow fadeInUp slow" style="width: 150px; height: 150px;">
+                </div>
+                <div class="col-5 mt-3" style="margin-left: -70px">
+                    <img src="asset/image/Profile3.jpg" class="w-100 rounded-circle-img rounded-circle wow fadeInUp" style="width: 150px; height: 150px;">
+                </div>
+            </div>
+        </div>
+        <div class="animated pulse infinite">
+            <div class="row d-flex justify-content-center">
+                <div class="col-5" style="margin-top: -40px">
+                    <img src="asset/image/Profile5.jpg" class="w-100 rounded-circle-img rounded-circle wow fadeInUp slower" style="width: 150px; height: 150px;">
+                </div>
+                <div class="col-5 mt-3" style="margin-left: -70px">
+                    <img src="asset/image/Profile4.jpg" class="w-100 rounded-circle-img rounded-circle wow fadeInUp" style="width: 150px; height: 150px;">
+                </div>
+            </div>
+        </div>
+        
+        <!-- <div class="firework"></div> -->
+        <!-- <script type="text/javascript">
+            $(document).ready(function() {
+                new WOW().init();
+            });
+        </script> -->
+        
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mdb-ui-kit@3.9.0/dist/js/wow.min.js"></script>
+
+        <script type="text/javascript">
+            $( document ).ready(function() {
+                new WOW().init();
+            });
+
+             var audio = document.getElementById('birthdayAudio');
+
+            function playAudio() {
+            // Menghentikan audio sebelum memulai ulang
+                audio.pause();
+                audio.currentTime = 0;
+
+                // Memulai pemutaran audio
+                audio.play();
+
+                // Menambahkan event listener untuk mendeteksi saat audio selesai diputar
+                audio.addEventListener('ended', function() {
+                    // Memulai ulang audio ketika selesai diputar
+                    audio.currentTime = 0;
+                    audio.play();
+                });
+
+                var willShow = document.getElementById('willShow');
+                willShow.classList.remove('d-none');
+            }
+            // function playAudio() {
+            //     var audio = document.getElementById('birthdayAudio');
+            //     audio.play();
+                
+                
+            // }
+        </script>
+    </body>
+</html>
